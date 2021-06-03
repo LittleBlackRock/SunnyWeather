@@ -13,6 +13,15 @@
         android:id="@+id/titleLayout"
         android:fitsSystemWindows="true">
 
+<!--        切换城市-->
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/navBtn"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_home"/>
+
 <!--        显示城市名-->
         <TextView
             android:layout_width="wrap_content"
